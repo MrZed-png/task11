@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h1>Найдено кандидатов {{ candidates_len }}</h1>
+
+{% for can in candidates %}
+    <p><a href="/candidate/{{ can.id }}">{{ can.name}}</a></p>
+{% endfor %}
+
+
+</body>
+</html>
