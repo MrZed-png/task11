@@ -50,4 +50,3 @@ class CandidatesManager:
                 matching_candidates.append(candidate)
 
         return matching_candidates
-
